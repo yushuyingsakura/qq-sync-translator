@@ -1,0 +1,16 @@
+{
+  "name": "qq-sync-translator",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Incoming text translation for QQ NT + LiteLoaderQQNT",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/yushuyingsakura/qq-sync-translator.git" },
+  "homepage": "https://github.com/yushuyingsakura/qq-sync-translator#readme",
+  "bugs": { "url": "https://github.com/yushuyingsakura/qq-sync-translator/issues" },
+  "scripts": {
+    "test": "node --test tests/core.test.cjs tests/ipc.test.cjs tests/dom.test.mjs",
+    "test:core": "node --test tests/core.test.cjs tests/ipc.test.cjs"
+  },
+  "devDependencies": { "happy-dom": "21.0.4" },
+  "engines": { "node": ">=20" }
+}

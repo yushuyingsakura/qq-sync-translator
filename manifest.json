@@ -1,0 +1,16 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQ 收信同步翻译",
+  "slug": "qq_sync_translator",
+  "description": "在收到的文字消息下方显示译文，支持 DeepL 与 LibreTranslate。",
+  "version": "0.1.1",
+  "authors": [{ "name": "yushuyingsakura", "link": "https://github.com/yushuyingsakura" }],
+  "repository": { "repo": "yushuyingsakura/qq-sync-translator", "branch": "main" },
+  "platform": ["win32"],
+  "injects": {
+    "main": "./src/main.cjs",
+    "preload": "./src/preload.js",
+    "renderer": "./src/renderer.mjs"
+  }
+}
